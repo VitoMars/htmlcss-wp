@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Contenitore */
+.contenitore {
+  font-size: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Margine tra una sezione e l'altra */
+section {
+  margin-top: 1%;
+}
+
+/* Sezione rosa */
+header {
+  height: 100px;
+  background-color: #e579e6;
+}
+
+/* Sezione gialla */
+.giallo {
+  height: 350px;
+  background-color: #e1d67a;
+}
+
+/* Sezione blu */
+.contenitore_blu {
+  margin-bottom: 1%;
+  height: 400px;
+  background-color: #0086ff;
+}
+
+.home,
+.sidebar,
+.center {
+  background-color: #abcfe7;
+  height: 300px;
+}
+
+.home {
+  height: 70px;
+  margin-bottom: 1%;
+}
+
+.sidebar {
+  float: left;
+  width: calc(100% / 5);
+}
+
+.center {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: calc((100% / 5) * 3 - 20px);
+}
+
+/* Sezione viola */
+footer {
+  height: 50px;
+  background-color: #8801fe;
+}
