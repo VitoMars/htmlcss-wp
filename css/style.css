@@ -21,16 +21,6 @@ body {
   margin: 0 auto;
 }
 
-/* Margine tra una sezione e l'altra */
-section {
-  margin-top: 1%;
-}
-
-/* Sezione rosa */
-header {
-  /* background-color: #b96fb9; */
-}
-
 header img {
   height: 100px;
   border-right: 1px solid grey;
@@ -88,17 +78,10 @@ nav li a {
 
 /* Sezione blu */
 .contenitore_blu {
-  margin-top: 1%;
-  margin-bottom: 1%;
+  /* margin-top: 1%;
+  margin-bottom: 1%; */
   height: 400px;
   /* background-color: #0086ff; */
-}
-
-.home,
-.sidebar,
-.center {
-  /* background-color: #abcfe7; */
-  height: 300px;
 }
 
 .text_grey {
@@ -108,24 +91,48 @@ nav li a {
 
 .home {
   height: 70px;
-  margin-bottom: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
-.home h1 {
+.home div {
+  font-size: 40px;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 1000;
+  font-weight: 900;
 }
 
-.sidebar {
+.sidebar_left,
+.sidebar_right {
   float: left;
   width: calc(100% / 5);
 }
 
+.container_img {
+  position: relative;
+  border-radius: 10px;
+}
+
 .center {
   float: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: calc((100% / 5) * 3 - 20px);
+  margin-left: 15px;
+  margin-right: 15px;
+  width: calc((100% / 5) * 3 - 30px);
+}
+
+.sidebar_left img,
+.sidebar_right img,
+.center img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.title_2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 17px;
 }
 
 /* Sezione viola */
