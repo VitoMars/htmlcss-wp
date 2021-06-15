@@ -21,6 +21,7 @@ body {
   margin: 0 auto;
 }
 
+/* Header */
 header img {
   height: 100px;
   margin-top: 1%;
@@ -73,8 +74,12 @@ nav li a {
   color: white;
 }
 
-#title {
-  font-size: 28px;
+.banner_text div {
+  font-size: 30px;
+}
+
+.banner_text p {
+  font-size: 17px;
 }
 
 /* Sezione main */
